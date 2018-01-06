@@ -1,0 +1,13 @@
+package enums_and_anotations_lab.e_coding_tracker;
+
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+import java.lang.annotation.Target;
+
+@Retention(RetentionPolicy.RUNTIME)
+@Target(ElementType.METHOD)
+public @interface Author {
+    String name();
+
+}

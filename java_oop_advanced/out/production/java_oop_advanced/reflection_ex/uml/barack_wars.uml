@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="1876.6904761904761" y="434.5">reflection_ex.c_baracks_wars.core.commands.AddCommand</node>
+    <node x="773.8065476190477" y="232.5">reflection_ex.c_baracks_wars.core.factories.UnitFactoryImpl</node>
+    <node x="381.8065476190477" y="188.0">reflection_ex.c_baracks_wars.interpreters.CommandInterpreterImpl</node>
+    <node x="573.0" y="668.0">reflection_ex.c_baracks_wars.contracts.Unit</node>
+    <node x="728.3184523809524" y="22.5">reflection_ex.c_baracks_wars.contracts.UnitFactory</node>
+    <node x="98.8065476190477" y="199.0">reflection_ex.c_baracks_wars.core.Engine</node>
+    <node x="0.0" y="1083.0">reflection_ex.c_baracks_wars.annotations.Inject</node>
+    <node x="1123.9285714285716" y="198.5">reflection_ex.c_baracks_wars.data.UnitRepository</node>
+    <node x="242.00000000000006" y="941.0">reflection_ex.c_baracks_wars.models.units.Gunner</node>
+    <node x="751.0" y="941.0">reflection_ex.c_baracks_wars.models.units.Pikeman</node>
+    <node x="610.0" y="566.0">reflection_ex.c_baracks_wars.contracts.Attacker</node>
+    <node x="477.00000000000006" y="566.0">reflection_ex.c_baracks_wars.contracts.Destroyable</node>
+    <node x="143.0" y="22.5">reflection_ex.c_baracks_wars.contracts.CommandInterpreter</node>
+    <node x="1494.6904761904761" y="434.5">reflection_ex.c_baracks_wars.core.commands.ReportCommand</node>
+    <node x="1072.0684523809523" y="423.0">reflection_ex.c_baracks_wars.core.commands.RetireCommand</node>
+    <node x="0.0" y="941.0">reflection_ex.c_baracks_wars.models.units.Archer</node>
+    <node x="1001.0" y="941.0">reflection_ex.c_baracks_wars.models.units.Swordsman</node>
+    <node x="1547.1904761904761" y="177.0">reflection_ex.c_baracks_wars.core.commands.BaseCommand</node>
+    <node x="0.0" y="22.5">reflection_ex.c_baracks_wars.contracts.Runnable</node>
+    <node x="508.50000000000006" y="748.0">reflection_ex.c_baracks_wars.models.units.AbstractUnit</node>
+    <node x="1169.3035714285716" y="0.0">reflection_ex.c_baracks_wars.contracts.Repository</node>
+    <node x="487.00000000000006" y="941.0">reflection_ex.c_baracks_wars.models.units.Horseman</node>
+    <node x="648.8065476190477" y="446.0">reflection_ex.c_baracks_wars.Main</node>
+    <node x="1683.857142857143" y="22.5">reflection_ex.c_baracks_wars.contracts.Executable</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="reflection_ex.c_baracks_wars.contracts.Unit" target="reflection_ex.c_baracks_wars.contracts.Attacker">
+      <point x="18.0" y="-15.0" />
+      <point x="627.0" y="643.0" />
+      <point x="684.5" y="643.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="reflection_ex.c_baracks_wars.models.units.Swordsman" target="reflection_ex.c_baracks_wars.models.units.AbstractUnit">
+      <point x="0.0" y="-48.5" />
+      <point x="1129.5" y="911.0" />
+      <point x="689.4000000000001" y="911.0" />
+      <point x="80.39999999999998" y="71.5" />
+    </edge>
+    <edge source="reflection_ex.c_baracks_wars.models.units.Horseman" target="reflection_ex.c_baracks_wars.models.units.AbstractUnit">
+      <point x="0.0" y="-48.5" />
+      <point x="0.0" y="71.5" />
+    </edge>
+    <edge source="reflection_ex.c_baracks_wars.Main" target="reflection_ex.c_baracks_wars.core.Engine">
+      <point x="-64.5" y="-26.0" />
+      <point x="670.3065476190477" y="403.0" />
+      <point x="230.3065476190477" y="403.0" />
+      <point x="0.0" y="71.0" />
+    </edge>
+    <edge source="reflection_ex.c_baracks_wars.core.commands.BaseCommand" target="reflection_ex.c_baracks_wars.contracts.Repository">
+      <point x="0.0" y="-93.0" />
+      <point x="1675.6904761904761" y="117.0" />
+      <point x="1352.1785714285716" y="117.0" />
+      <point x="78.375" y="48.5" />
+    </edge>
+    <edge source="reflection_ex.c_baracks_wars.interpreters.CommandInterpreterImpl" target="reflection_ex.c_baracks_wars.contracts.CommandInterpreter">
+      <point x="-124.0" y="-82.0" />
+      <point x="443.8065476190477" y="117.0" />
+      <point x="381.5" y="117.0" />
+      <point x="79.5" y="26.0" />
+    </edge>
+    <edge source="reflection_ex.c_baracks_wars.Main" target="reflection_ex.c_baracks_wars.core.factories.UnitFactoryImpl">
+      <point x="21.5" y="-26.0" />
+      <point x="756.3065476190477" y="383.0" />
+      <point x="901.8065476190477" y="383.0" />
+      <point x="0.0" y="37.5" />
+    </edge>
+    <edge source="reflection_ex.c_baracks_wars.core.Engine" target="reflection_ex.c_baracks_wars.contracts.CommandInterpreter">
+      <point x="-32.875" y="-71.0" />
+      <point x="197.4315476190477" y="157.0" />
+      <point x="222.5" y="157.0" />
+      <point x="-79.5" y="26.0" />
+    </edge>
+    <edge source="reflection_ex.c_baracks_wars.core.Engine" target="reflection_ex.c_baracks_wars.contracts.Repository">
+      <point x="98.625" y="-71.0" />
+      <point x="328.9315476190477" y="147.0" />
+      <point x="1195.4285714285716" y="147.0" />
+      <point x="-78.375" y="48.5" />
+    </edge>
+    <edge source="reflection_ex.c_baracks_wars.interpreters.CommandInterpreterImpl" target="reflection_ex.c_baracks_wars.contracts.UnitFactory">
+      <point x="0.0" y="-82.0" />
+      <point x="567.8065476190477" y="137.0" />
+      <point x="799.5684523809524" y="137.0" />
+      <point x="-23.75" y="26.0" />
+    </edge>
+    <edge source="reflection_ex.c_baracks_wars.contracts.Unit" target="reflection_ex.c_baracks_wars.contracts.Destroyable">
+      <point x="-18.0" y="-15.0" />
+      <point x="591.0" y="643.0" />
+      <point x="533.5" y="643.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="reflection_ex.c_baracks_wars.core.factories.UnitFactoryImpl" target="reflection_ex.c_baracks_wars.contracts.UnitFactory">
+      <point x="0.0" y="-37.5" />
+      <point x="901.8065476190477" y="137.0" />
+      <point x="847.0684523809524" y="137.0" />
+      <point x="23.75" y="26.0" />
+    </edge>
+    <edge source="reflection_ex.c_baracks_wars.interpreters.CommandInterpreterImpl" target="reflection_ex.c_baracks_wars.contracts.Repository">
+      <point x="124.0" y="-82.0" />
+      <point x="691.8065476190477" y="157.0" />
+      <point x="1247.6785714285716" y="157.0" />
+      <point x="-26.125" y="48.5" />
+    </edge>
+    <edge source="reflection_ex.c_baracks_wars.data.UnitRepository" target="reflection_ex.c_baracks_wars.contracts.Repository">
+      <point x="0.0" y="-71.5" />
+      <point x="26.125" y="48.5" />
+    </edge>
+    <edge source="reflection_ex.c_baracks_wars.core.commands.ReportCommand" target="reflection_ex.c_baracks_wars.core.commands.BaseCommand">
+      <point x="0.0" y="-37.5" />
+      <point x="0.0" y="93.0" />
+    </edge>
+    <edge source="reflection_ex.c_baracks_wars.core.commands.BaseCommand" target="reflection_ex.c_baracks_wars.contracts.UnitFactory">
+      <point x="-85.66666666666674" y="-93.0" />
+      <point x="1590.0238095238094" y="127.0" />
+      <point x="894.5684523809524" y="127.0" />
+      <point x="71.25" y="26.0" />
+    </edge>
+    <edge source="reflection_ex.c_baracks_wars.models.units.Pikeman" target="reflection_ex.c_baracks_wars.models.units.AbstractUnit">
+      <point x="0.0" y="-48.5" />
+      <point x="866.0" y="921.0" />
+      <point x="649.2" y="921.0" />
+      <point x="40.200000000000045" y="71.5" />
+    </edge>
+    <edge source="reflection_ex.c_baracks_wars.core.commands.BaseCommand" target="reflection_ex.c_baracks_wars.contracts.Executable">
+      <point x="85.66666666666674" y="-93.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="reflection_ex.c_baracks_wars.core.commands.RetireCommand" target="reflection_ex.c_baracks_wars.core.commands.BaseCommand">
+      <point x="0.0" y="-49.0" />
+      <point x="1219.0684523809523" y="403.0" />
+      <point x="1590.0238095238094" y="403.0" />
+      <point x="-85.66666666666674" y="93.0" />
+    </edge>
+    <edge source="reflection_ex.c_baracks_wars.Main" target="reflection_ex.c_baracks_wars.interpreters.CommandInterpreterImpl">
+      <point x="-21.5" y="-26.0" />
+      <point x="713.3065476190477" y="393.0" />
+      <point x="567.8065476190477" y="393.0" />
+      <point x="0.0" y="82.0" />
+    </edge>
+    <edge source="reflection_ex.c_baracks_wars.models.units.Archer" target="reflection_ex.c_baracks_wars.models.units.AbstractUnit">
+      <point x="0.0" y="-48.5" />
+      <point x="111.0" y="911.0" />
+      <point x="528.6000000000001" y="911.0" />
+      <point x="-80.39999999999998" y="71.5" />
+    </edge>
+    <edge source="reflection_ex.c_baracks_wars.core.Engine" target="reflection_ex.c_baracks_wars.contracts.UnitFactory">
+      <point x="32.875" y="-71.0" />
+      <point x="263.1815476190477" y="127.0" />
+      <point x="752.0684523809524" y="127.0" />
+      <point x="-71.25" y="26.0" />
+    </edge>
+    <edge source="reflection_ex.c_baracks_wars.core.Engine" target="reflection_ex.c_baracks_wars.contracts.Runnable">
+      <point x="-98.625" y="-71.0" />
+      <point x="131.6815476190477" y="157.0" />
+      <point x="61.5" y="157.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="reflection_ex.c_baracks_wars.Main" target="reflection_ex.c_baracks_wars.data.UnitRepository">
+      <point x="64.5" y="-26.0" />
+      <point x="799.3065476190477" y="393.0" />
+      <point x="1299.9285714285716" y="393.0" />
+      <point x="0.0" y="71.5" />
+    </edge>
+    <edge source="reflection_ex.c_baracks_wars.core.commands.AddCommand" target="reflection_ex.c_baracks_wars.core.commands.BaseCommand">
+      <point x="0.0" y="-37.5" />
+      <point x="2051.190476190476" y="403.0" />
+      <point x="1761.357142857143" y="403.0" />
+      <point x="85.66666666666674" y="93.0" />
+    </edge>
+    <edge source="reflection_ex.c_baracks_wars.models.units.AbstractUnit" target="reflection_ex.c_baracks_wars.contracts.Unit">
+      <point x="0.0" y="-71.5" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="reflection_ex.c_baracks_wars.models.units.Gunner" target="reflection_ex.c_baracks_wars.models.units.AbstractUnit">
+      <point x="0.0" y="-48.5" />
+      <point x="354.50000000000006" y="921.0" />
+      <point x="568.8" y="921.0" />
+      <point x="-40.200000000000045" y="71.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.4121800529567519" x="1113.0" y="556.5000000000001" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

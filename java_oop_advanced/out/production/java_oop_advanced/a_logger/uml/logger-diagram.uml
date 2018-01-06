@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="1327.28125" y="643.5">a_logger.factories.AppenderFactoryImpl</node>
+    <node x="1003.3433493589743" y="846.0">a_logger.Main</node>
+    <node x="232.49959935897414" y="33.0">a_logger.interfaces.Controller</node>
+    <node x="1872.3353365384617" y="610.0">a_logger.models.FileAppender</node>
+    <node x="1141.3745993589741" y="312.0">a_logger.interfaces.AppenderFactory</node>
+    <node x="567.3745993589743" y="223.0">a_logger.models.MessageLogger</node>
+    <node x="998.3745993589743" y="312.0">a_logger.interfaces.Runnable</node>
+    <node x="1770.5853365384617" y="33.0">a_logger.interfaces.File</node>
+    <node x="728.6245993589743" y="566.0">a_logger.models.Engine</node>
+    <node x="2635.835336538462" y="300.5">a_logger.models.XmlLayout</node>
+    <node x="1671.1245993589741" y="256.0">a_logger.models.LogFile</node>
+    <node x="0.0" y="632.0">a_logger.io.ConsoleReader</node>
+    <node x="1929.8353365384617" y="190.0">a_logger.models.AbstractAppender</node>
+    <node x="98.25" y="312.0">a_logger.interfaces.Reader</node>
+    <node x="434.49959935897425" y="0.0">a_logger.interfaces.Logger</node>
+    <node x="2388.040064102564" y="44.0">a_logger.interfaces.Layout</node>
+    <node x="2182.085336538462" y="643.5">a_logger.models.ConsoleAppender</node>
+    <node x="336.37459935897425" y="278.0">a_logger.models.LogController</node>
+    <node x="2440.835336538462" y="300.5">a_logger.models.SimpleLayout</node>
+    <node x="1557.28125" y="655.0">a_logger.io.ConsoleWriter</node>
+    <node x="1466.1245993589741" y="312.0">a_logger.interfaces.Writer</node>
+    <node x="2101.335336538462" y="0.0">a_logger.enums.ReportLevel</node>
+    <node x="846.3745993589743" y="22.0">a_logger.interfaces.Appender</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="a_logger.models.MessageLogger" target="a_logger.interfaces.Appender">
+      <point x="102.5" y="-115.0" />
+      <point x="874.8745993589743" y="170.0" />
+      <point x="888.8745993589743" y="170.0" />
+      <point x="-85.0" y="48.0" />
+    </edge>
+    <edge source="a_logger.models.FileAppender" target="a_logger.models.AbstractAppender">
+      <point x="47.0" y="-71.0" />
+      <point x="2013.3353365384617" y="546.0" />
+      <point x="2052.585336538462" y="546.0" />
+      <point x="-122.75" y="148.0" />
+    </edge>
+    <edge source="a_logger.io.ConsoleWriter" target="a_logger.interfaces.Writer">
+      <point x="0.0" y="-26.0" />
+      <point x="1649.78125" y="536.0" />
+      <point x="1604.8745993589741" y="536.0" />
+      <point x="46.25" y="26.0" />
+    </edge>
+    <edge source="a_logger.factories.AppenderFactoryImpl" target="a_logger.interfaces.AppenderFactory">
+      <point x="-52.5" y="-37.5" />
+      <point x="1379.78125" y="526.0" />
+      <point x="1334.8745993589741" y="526.0" />
+      <point x="64.5" y="26.0" />
+    </edge>
+    <edge source="a_logger.Main" target="a_logger.io.ConsoleReader">
+      <point x="-64.5" y="-26.0" />
+      <point x="1024.8433493589741" y="826.0" />
+      <point x="138.0" y="826.0" />
+      <point x="0.0" y="49.0" />
+    </edge>
+    <edge source="a_logger.models.Engine" target="a_logger.interfaces.Writer">
+      <point x="132.5625" y="-115.0" />
+      <point x="1012.6870993589743" y="536.0" />
+      <point x="1512.3745993589741" y="536.0" />
+      <point x="-46.25" y="26.0" />
+    </edge>
+    <edge source="a_logger.models.AbstractAppender" target="a_logger.interfaces.Layout">
+      <point x="163.66666666666652" y="-148.0" />
+      <point x="2339.002003205128" y="170.0" />
+      <point x="2441.3733974358975" y="170.0" />
+      <point x="-106.66666666666652" y="26.0" />
+    </edge>
+    <edge source="a_logger.models.SimpleLayout" target="a_logger.interfaces.Layout">
+      <point x="0.0" y="-37.5" />
+      <point x="2528.335336538462" y="170.0" />
+      <point x="2548.040064102564" y="170.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="a_logger.Main" target="a_logger.io.ConsoleWriter">
+      <point x="64.5" y="-26.0" />
+      <point x="1153.8433493589741" y="826.0" />
+      <point x="1649.78125" y="826.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="a_logger.models.Engine" target="a_logger.models.LogController">
+      <point x="-56.8125" y="-115.0" />
+      <point x="823.3120993589743" y="526.0" />
+      <point x="438.87459935897425" y="526.0" />
+      <point x="0.0" y="60.0" />
+    </edge>
+    <edge source="a_logger.Main" target="a_logger.factories.AppenderFactoryImpl">
+      <point x="21.5" y="-26.0" />
+      <point x="1110.8433493589741" y="816.0" />
+      <point x="1432.28125" y="816.0" />
+      <point x="0.0" y="37.5" />
+    </edge>
+    <edge source="a_logger.factories.AppenderFactoryImpl" target="a_logger.models.LogFile">
+      <point x="52.5" y="-37.5" />
+      <point x="1484.78125" y="546.0" />
+      <point x="1775.1245993589741" y="546.0" />
+      <point x="0.0" y="82.0" />
+    </edge>
+    <edge source="a_logger.models.Engine" target="a_logger.interfaces.Runnable">
+      <point x="56.8125" y="-115.0" />
+      <point x="936.9370993589743" y="516.0" />
+      <point x="1059.8745993589741" y="516.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="a_logger.models.Engine" target="a_logger.interfaces.Reader">
+      <point x="-132.5625" y="-115.0" />
+      <point x="747.5620993589743" y="546.0" />
+      <point x="217.5" y="546.0" />
+      <point x="39.75" y="26.0" />
+    </edge>
+    <edge source="a_logger.models.Engine" target="a_logger.models.MessageLogger">
+      <point x="-18.9375" y="-115.0" />
+      <point x="861.1870993589743" y="516.0" />
+      <point x="772.3745993589743" y="516.0" />
+      <point x="0.0" y="115.0" />
+    </edge>
+    <edge source="a_logger.io.ConsoleReader" target="a_logger.interfaces.Reader">
+      <point x="0.0" y="-49.0" />
+      <point x="-39.75" y="26.0" />
+    </edge>
+    <edge source="a_logger.models.LogFile" target="a_logger.interfaces.File">
+      <point x="0.0" y="-82.0" />
+      <point x="1775.1245993589741" y="170.0" />
+      <point x="1816.3353365384617" y="170.0" />
+      <point x="-45.75" y="37.0" />
+    </edge>
+    <edge source="a_logger.models.AbstractAppender" target="a_logger.interfaces.Appender">
+      <point x="-163.66666666666652" y="-148.0" />
+      <point x="2011.6686698717951" y="160.0" />
+      <point x="1058.8745993589741" y="160.0" />
+      <point x="85.0" y="48.0" />
+    </edge>
+    <edge source="a_logger.models.Engine" target="a_logger.interfaces.Appender">
+      <point x="18.9375" y="-115.0" />
+      <point x="899.0620993589743" y="506.0" />
+      <point x="987.8745993589743" y="506.0" />
+      <point x="987.8745993589743" y="170.0" />
+      <point x="973.8745993589743" y="170.0" />
+      <point x="0.0" y="48.0" />
+    </edge>
+    <edge source="a_logger.models.ConsoleAppender" target="a_logger.models.AbstractAppender">
+      <point x="0.0" y="-37.5" />
+      <point x="122.75" y="148.0" />
+    </edge>
+    <edge source="a_logger.models.MessageLogger" target="a_logger.interfaces.Logger">
+      <point x="-102.5" y="-115.0" />
+      <point x="669.8745993589743" y="170.0" />
+      <point x="657.2495993589743" y="170.0" />
+      <point x="74.25" y="70.0" />
+    </edge>
+    <edge source="a_logger.Main" target="a_logger.models.Engine">
+      <point x="-21.5" y="-26.0" />
+      <point x="1067.8433493589741" y="816.0" />
+      <point x="880.1245993589743" y="816.0" />
+      <point x="0.0" y="115.0" />
+    </edge>
+    <edge source="a_logger.models.LogController" target="a_logger.interfaces.Controller">
+      <point x="-51.25" y="-60.0" />
+      <point x="387.62459935897425" y="170.0" />
+      <point x="368.99959935897414" y="170.0" />
+      <point x="45.5" y="37.0" />
+    </edge>
+    <edge source="a_logger.models.FileAppender" target="a_logger.interfaces.File">
+      <point x="-47.0" y="-71.0" />
+      <point x="1919.3353365384617" y="170.0" />
+      <point x="1907.8353365384617" y="170.0" />
+      <point x="45.75" y="37.0" />
+    </edge>
+    <edge source="a_logger.models.Engine" target="a_logger.interfaces.AppenderFactory">
+      <point x="94.6875" y="-115.0" />
+      <point x="974.8120993589743" y="526.0" />
+      <point x="1205.8745993589741" y="526.0" />
+      <point x="-64.5" y="26.0" />
+    </edge>
+    <edge source="a_logger.models.LogController" target="a_logger.interfaces.Logger">
+      <point x="51.25" y="-60.0" />
+      <point x="490.12459935897425" y="170.0" />
+      <point x="508.74959935897425" y="170.0" />
+      <point x="-74.25" y="70.0" />
+    </edge>
+    <edge source="a_logger.models.Engine" target="a_logger.interfaces.Controller">
+      <point x="-94.6875" y="-115.0" />
+      <point x="785.4370993589743" y="536.0" />
+      <point x="292.62459935897414" y="536.0" />
+      <point x="292.62459935897414" y="170.0" />
+      <point x="277.99959935897414" y="170.0" />
+      <point x="-45.5" y="37.0" />
+    </edge>
+    <edge source="a_logger.models.AbstractAppender" target="a_logger.enums.ReportLevel">
+      <point x="0.0" y="-148.0" />
+      <point x="0.0" y="70.0" />
+    </edge>
+    <edge source="a_logger.models.XmlLayout" target="a_logger.interfaces.Layout">
+      <point x="0.0" y="-37.5" />
+      <point x="2715.335336538462" y="170.0" />
+      <point x="2654.7067307692305" y="170.0" />
+      <point x="106.66666666666652" y="26.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8324723247232472" x="1767.927304964539" y="408.9450354609929" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
